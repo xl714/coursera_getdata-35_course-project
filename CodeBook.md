@@ -34,12 +34,12 @@ Fields in output data set:
 
   Id variables :
   
-    subject 
-    activity
+    subject :  identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+    activity : activity name 
     
-  Measurments variables:
+  Measurments variables: average Mean value and Standard deviation of all the raw data collected
   
-    tBodyAcc.mean...X
+    tBodyAcc.mean...X 
     tBodyAcc.mean...Y
     tBodyAcc.mean...Z
     tBodyAcc.std...X
@@ -105,3 +105,4 @@ Fields in output data set:
     fBodyBodyGyroMag.std..
     fBodyBodyGyroJerkMag.mean..
     fBodyBodyGyroJerkMag.std..
+    
